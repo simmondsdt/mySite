@@ -12,3 +12,6 @@ ReactDOM.render(
   document.getElementById('app')
 );
 
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});
