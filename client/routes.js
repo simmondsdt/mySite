@@ -6,7 +6,6 @@ import Home from './components/Home';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
-import Education from './components/Education';
 
 export default (
   <Route>
@@ -15,7 +14,6 @@ export default (
       <Route path="skills" component={Skills} />
       <Route path="contact" component={Contact} />
       <Route path="experience" component={Experience} />
-      <Route path="education" component={Education} />
 
       <Route path="*" status={404} component={NoMatch}/>
     </Route>

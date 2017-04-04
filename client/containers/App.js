@@ -13,7 +13,6 @@ class App extends Component {
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/skills'>Skills</Link></li>
         <li><Link to='/experience'>Experience</Link></li>
-        <li><Link to='/education'>Eduction</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
       </div>
     );
